@@ -1,0 +1,46 @@
+/* Reset default margins and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 50px;
+    color: #222;
+}
+
+p[type="NOTICE"] {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 5px;
+    border: 1px solid #ffeeba;
+}
+
+div {
+    margin: 20px 0;
+    font-family: monospace;
+    color: #666;
+}
+
+button[type="Demo-Button"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="Demo-Button"]:hover {
+    background-color: #0056b3;
+}
